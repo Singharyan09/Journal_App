@@ -1,9 +1,9 @@
 package com.Journal.journalApp.repository;
 
-import com.Journal.journalApp.entity.JournalEntry;
+import com.Journal.journalApp.Model.JournalEntity;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface JournalEntryRepository extends MongoRepository<JournalEntry, ObjectId> {
+public interface JournalEntryRepository extends MongoRepository<JournalEntity, ObjectId> {
 }
 
